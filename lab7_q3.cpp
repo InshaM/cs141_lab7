@@ -1,9 +1,9 @@
-//include library
+//include in the library
 #include <iostream>
 using namespace std;
-//function inside a function
+//function inside another  function
 int number(int i,int n){
-	//providing condition
+	//providing the conditions required
 	if (i==n+1 || i==n+2){
 	return 0;}
 	else {
@@ -17,9 +17,9 @@ int main (){
 	//asking the user for a number
 	cout<<"Enter a natural number : ";
 	cin>>n;
-	//the odd number are given
+	//the odd numbers are given as :
 	cout<<"The odd numbers are :"<<endl;number(1,n);
-	//the even numbers are given
+	//the even numbers are given as :
 	cout<<"The even numbers are: "<<endl;number(2,n);
 return 0;
 }
