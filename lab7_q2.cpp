@@ -1,9 +1,9 @@
-//include library
+//include im the library
 #include <iostream>
 using namespace std;
-//function inside a function
+//function inside another function:
 int number(int i,int n){
-	//PROVIDING THE CONDITIONS
+	//Providing the required conditions:
 	if (i==n+1){
 	return 0;}
 	else {
@@ -15,10 +15,10 @@ int number(int i,int n){
 
 int main (){
 	int n,i;
-	//ASKING THE USER
+	//asking the user the question
 	cout<<"Enter a natural number : ";
 	cin>>n;
-	//CALL FOR FUNCTIONS
+	//Call for the function
 	number(1,n);
 return 0;
 }
