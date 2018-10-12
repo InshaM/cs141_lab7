@@ -1,8 +1,8 @@
-//including library
+//including in the library
 #include <iostream>
 using namespace std;
 int reverse(int n,int m){
-	//conditions
+	//giving the wanted conditions
 	if(n==0){
 	return m;}
 	//storing the reverse of the number
@@ -12,10 +12,10 @@ int reverse(int n,int m){
 
 int main(){
 	int n;
-	//asking a number
+	//asking a number to the user
 	cout<<"type a number : ";cin>>n;
 	int m = reverse(n,0);cout<<endl;
-	//printing the condition
+	//printing the condition required
 	if(m==n){
 	cout<<"The number "<<n<<" is palindromic"<<endl;
 }
