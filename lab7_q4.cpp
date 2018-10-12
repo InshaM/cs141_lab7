@@ -1,9 +1,9 @@
-//include library
+//include in the library
 #include <iostream>
 using namespace std;
-//function inside a function
+//function inside another function
 int sum(int i){
-	//providing the conditions
+	//providing the required conditions
 	if(i==0){
 		return 0;	
 	}
@@ -15,7 +15,7 @@ int sum(int i){
 
 int main (){
 	int n;
-	//ask the user a number
+	//asking  the user any number he wantss
 	cout<<"Enter a number: ";cin>>n;
 	//printing the sum
 	cout<<"The sum of the natural number to "<<n<<" is "<<sum(n)<<endl;
