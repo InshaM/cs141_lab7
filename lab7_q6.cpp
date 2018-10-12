@@ -1,8 +1,8 @@
-//including library
+//including in the library
 #include <iostream>
 using namespace std;
 int reverse(int n){
-	//conditions
+	//providing the required conditions
 	if(n==0){
 	return 0;}
 	//reversing the number
@@ -13,7 +13,7 @@ int reverse(int n){
 }
 int main(){
 	int n;
-	//asking a number
+	//asking a number to the user
 	cout<<"type a number : ";cin>>n;
 	reverse(n);cout<<endl;
 return 0;
