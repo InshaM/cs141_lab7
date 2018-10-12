@@ -1,8 +1,8 @@
-//including library
+//include in the library
 #include <iostream>
 using namespace std;
 int fact(int n){
-	//conditions
+	//conditions required :
 	if(n==0){
 	return 0;}
 	//factorial of the number in recursion
@@ -13,10 +13,10 @@ int fact(int n){
 
 int main(){
 	int a;
-	//asking a number
-	cout<<"type a number : ";cin>>a;
+	//asking a number to the user .
+	cout<<"Type a number : ";cin>>a;
 	cout<<endl;
-	//call for function
+	//call for the function .
 	cout<<"The factorial of the number "<<a<<" is "<<fact(a)<<endl;
 return 0;
 
