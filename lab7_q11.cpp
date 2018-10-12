@@ -1,12 +1,12 @@
-//including library
+//including in the  library
 #include <iostream>
 using namespace std;
 int hcf(int m,int n){
-	//conditions
-	//finding hcf
+	//giving conditions
+	//finding the highest common factor (HCF)
 	if(n!=0){
 	return hcf(n,m%n);}
-	//if any munber is 0
+	//if any number is 0
 	else{
 	return m;}
 
@@ -18,8 +18,8 @@ int main(){
 	cout<<endl;
 	cout<<"TYPE THE 2ND NUMBER : ";cin>>b;
 	cout<<endl;
-	//call for function the hcf
-	cout<<"The hcf of the number "<<a<<" and "<<b<<" is "<<hcf(a,b)<<endl;
+	//call for the function : the HCF
+	cout<<"The hcf of the numbers "<<a<<" and "<<b<<" is "<<hcf(a,b)<<endl;
 return 0;
 
 }
